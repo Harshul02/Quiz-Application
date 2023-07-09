@@ -16,6 +16,8 @@ const Quiz = () => {
     <div className='container'>
       <h1 className='title text-light text-center p-3 my-3' style={{border: '5px solid #0cf36b'}}>Quiz Application</h1>
 
+        <Questions />
+
       <div className="d-flex justify-content-between">
         <button className='btn btn-info prev' onClick={onPrev}>Prev</button>
         <button className='btn btn-info next' onClick={onNext}>Next</button>
